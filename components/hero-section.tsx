@@ -26,7 +26,24 @@ const HeroSection = () => {
         </div>
       </div>
       <ChevronDown className="mx-auto animate-bounce" />
+      
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 px-12 md:mb-16 text-center order-last">
+      <div className="bg-red-500 p-4"></div> </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 px-12 md:mb-16 text-center order-last">
+  <div className="bg-red-500 p-4"></div> </div>
+
+      <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
+          <h1 className="text-5xl leading-tight md:leading-none md:text-6xl font-header font-semibold">
+            Hi, I&apos;m Izabelle Luna
+          </h1>
+          <p className="text-lg text-gray-300 font-medium mt-2">
+            A brazilian girl passionate about{" "}
+            <span className="text-white">security</span> and{" "}
+            <span className="text-white">technology</span>.
+          </p>
+        </div>
     </>
+       
   );
 };
 
