@@ -33,7 +33,7 @@ const HeroSection = () => {
             Quem sou eu?
           </h1>
         </div>
-        <div>
+        <div className="flex-col gap-3 px-12 md:mb-16 order-last text-left">
         <blockquote>
   <p>Olá! Sou uma estudante de Ciência da Computação</p>
   <p>apaixonada por segurança cibernética e desenvolvi-</p>
@@ -41,6 +41,7 @@ const HeroSection = () => {
   <p>uma base sólida em ambas as áreas.</p>
   <div>
     {/* add img */}
+    
   </div>
 </blockquote>
        </div>
@@ -48,6 +49,9 @@ const HeroSection = () => {
        <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
         <p className="text-blue-300 leading-tight md:leading-none text-lg font-header">Estou em busca de</p>
         <p className="text-blue-300 leading-tight md:leading-none text-lg font-header">desafios reais</p>
+       </div>
+       <div>
+        {/* add link pro blog */}
        </div>
        <div  className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
        <h1 className="text-blue-300 leading-tight md:leading-none text-xl font-header">MINHAS HABILIDADES</h1>
@@ -61,6 +65,20 @@ const HeroSection = () => {
   <p className="text-blue-300 leading-tight md:leading-none text-lg font-header">uma forte paixão por segurança</p>
   <p className="text-blue-300 leading-tight md:leading-none text-lg font-header">cibernética e desenvolvimento web.</p>
 </blockquote>
+       </div>
+       <div  className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
+       <h1 className="text-blue-300 leading-tight md:leading-none text-xl font-header">CONQUISTAS</h1>
+       <h1 className="text-5xl leading-tight md:leading-none md:text-5xl font-header font-semibold">
+            Badges e Certificados
+          </h1>
+       </div>
+       <div className="flex-col gap-3 px-12 md:mb-16 order-last text-right">
+       <blockquote>
+  <p>Quando não estou no computador, amo explorar</p>
+  <p>a natureza, cozinhar, dançar, ler (meus escritores</p>
+  <p>favoritos são Cesar Bravo e Stephen King) e</p>
+  <p>sentir músicas.</p>
+       </blockquote>
        </div>
        
             
