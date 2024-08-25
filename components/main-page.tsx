@@ -4,6 +4,9 @@ import { useEffect, useRef } from "react";
 import Navbar from "./navbar";
 import HeroSection from "./hero-section";
 import { cn } from "@/lib/utils";
+import WhoAmI from "./lp-sections/whoami";
+import Skills from "./lp-sections/skills";
+import Achievements from "./lp-sections/achievements";
 
 const MainPage = () => {
   const pageRef = useRef<HTMLElement>(null);
@@ -36,10 +39,13 @@ const MainPage = () => {
           }
         `}
       </style>
-      <main ref={pageRef} className={cn("")}>
+      <main ref={pageRef} className={cn("max-w-5xl mx-auto")}>
         <Navbar />
         <HeroSection />
-        <div className="pb-20"></div>
+        <WhoAmI />
+        <Skills />
+        <Achievements />
+        <div className="pb-20 max-w-xl"></div>
       </main>
     </>
   );
