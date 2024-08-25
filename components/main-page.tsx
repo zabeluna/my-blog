@@ -36,7 +36,7 @@ const MainPage = () => {
           }
         `}
       </style>
-      <main ref={pageRef} className={cn("gradient-track")}>
+      <main ref={pageRef} className={cn("")}>
         <Navbar />
         <HeroSection />
         <div className="pb-20"></div>
