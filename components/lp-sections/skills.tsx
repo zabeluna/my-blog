@@ -14,9 +14,8 @@ const Skills = (props: Props) => {
                     Habilidades e Tecnologias
                 </h1>
             </div>
-            <SectionHeader title="minhas habilidades" subtitle="Habilidades e Tecnologias"/>
 
-            <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20">
+            <div className="flex flex-row items-center justify-center scroll-px-3.5 py-5 pb-40 gap-20">
                 <div>
                     <Image
                         src="/javascript.png"

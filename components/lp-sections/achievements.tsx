@@ -18,7 +18,7 @@ const Achievements = (props: Props) => {
         <>
             
 
-            <div className="flex-col gap-3 px-12 py-1 md:mb-16 order-last text-center">
+            <div className="flex-col gap-3 px-12 py-1 pb-20 md:mb-16 order-last text-center">
                 <blockquote>
                     <p className="text-blue-300 leading-tight md:leading-none text-xl font-header">
                         Sou uma estudante dedicada com
@@ -68,6 +68,26 @@ const Achievements = (props: Props) => {
                     <CarouselPrevious />
                     <CarouselNext />
                 </Carousel>
+            </div>
+              <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20">
+                <div>
+                    <Image
+                        src="/owasp.png"
+                        width={140}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                </div>
+                
+                <div>
+                    <Image
+                        src="/pentest.png"
+                        width={220}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                </div>
+               
             </div>
         </>
     )

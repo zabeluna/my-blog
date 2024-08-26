@@ -43,7 +43,7 @@ const WhoAmI = () => {
                             className="rounded-lg"
                         />
                     </div>
-                    <div className="flex justify-normal px-32 py-8">
+                    <div className="flex justify-normal px-32 py-8 pb-16">
                         <blockquote className="text-sm">
                             <p>Follow me on Linkedin</p>
                             <p>Follow me on Github</p>
@@ -54,7 +54,7 @@ const WhoAmI = () => {
                 </div>
             </div>
 
-            <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
+            <div className="flex-col gap-3 px-12 pb-24 md:mb-16 order-last text-center">
                 <p className="text-blue-300 leading-tight md:leading-none text-xl font-header">
                     Estou em busca de
                 </p>
