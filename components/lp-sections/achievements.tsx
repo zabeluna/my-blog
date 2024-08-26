@@ -56,13 +56,6 @@ const Achievements = (props: Props) => {
                     <CarouselNext />
                 </Carousel>
             </div>
-            <div className="flex justify-center items-center gap-3 px-72 py-20 md:mb-16 pb-10 order-last text-xl">
-                {/*rever escritores*/}
-                <blockquote>
-                    <p>Quando não estou no computador, amo explorar</p>
-                    <p>a natureza, cozinhar, dançar, ler e sentir músicas.</p>
-                </blockquote>
-            </div>
         </>
     )
 }

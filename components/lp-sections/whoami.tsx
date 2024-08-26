@@ -16,6 +16,11 @@ const WhoAmI = () => {
                     Olá! Sou uma estudante de Ciência da Computação apaixonada por
                     segurança cibernética e desenvolvimento web. Minha jornada me
                     permitiu desenvolver uma base sólida em ambas as áreas.
+                    
+
+                    <p className="text-justify-left text-lg mt-3">Quando não estou no computador, amo explorar a
+                    natureza, cozinhar, dançar, ler e sentir músicas.</p>
+          
                 </p>
                 <div>
                     <div className="px-32">
