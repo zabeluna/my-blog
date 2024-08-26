@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SectionHeader from "./section-header";
 
 type Props = {}
 
@@ -13,6 +14,7 @@ const Skills = (props: Props) => {
                     Habilidades e Tecnologias
                 </h1>
             </div>
+            <SectionHeader title="minhas habilidades" subtitle="Habilidades e Tecnologias"/>
 
             <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20">
                 <div>
