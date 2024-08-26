@@ -1,5 +1,7 @@
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import React from 'react'
+import Image from "next/image";
+
 import {
     Carousel,
     CarouselContent,
@@ -29,7 +31,18 @@ const Achievements = (props: Props) => {
                     </p>
                 </blockquote>
             </div>
-            <div className="flex-col gap-3 px-12 py-28 md:mb-16 order-last text-center">
+            <div>
+                <div className="flex-col md:flex items-center justify-center">
+                        <Image
+                            src="/cinnaa.png"
+                            width={140}
+                            height={500}
+                            alt="cinna"
+                            className="rounded-lg"
+                        />
+                        </div>
+            </div>
+            <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
                 <h1 className="text-blue-300 leading-tight md:leading-none text-2xl font-header">
                     CONQUISTAS
                 </h1>

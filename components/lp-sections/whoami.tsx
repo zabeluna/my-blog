@@ -3,7 +3,18 @@ import Image from "next/image";
 const WhoAmI = () => {
     return (
         <>
-            <div className="flex-col gap-3 py-8 px-12 md:mb-16 order-last text-center">
+        <div></div>
+        <div className="flex-col md:flex items-center justify-center">
+                        <Image
+                            src="/cinenino.png"
+                            width={130}
+                            height={500}
+                            alt="cinna"
+                            className="rounded-lg"
+                        />
+                        </div>
+
+            <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
                 <h1 className="text-blue-300 leading-tight md:leading-none text-3xl font-header">
                     INICIANDO
                 </h1>
