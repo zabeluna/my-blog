@@ -57,25 +57,23 @@ const Achievements = (props: Props) => {
                 </h1>
             </div>
             <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20 text-black">
-                <Carousel className="w-full max-w-sm">
+                <Carousel className="w-full max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-2xl">
                     <CarouselContent className="-ml-1">
                         {Images.map(({ src, alt }, index) => (
                             <CarouselItem key={index} 
-                            className="pl-1 md:basis-1/2 lg:basis-1/3">
+                            className="pl-1 md:basis-1/2 lg:basis-1/2">
                                 <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex aspect-square items-center justify-center p-6">
-                                             <div>
-                                             <Image src="/cisco.png" 
-                                                    alt="Picture of the author" 
-                                                    layout='responsive' 
-                                                    width={500} 
-                                                    height={500} 
-                                                    objectFit='contain'
-                                             />
-                 </div>
-
-                                            <span className="text-2xl font-semibold">{index + 1}</span>
+                                        <CardContent className="flex items-center justify-center p-6">
+                                        <Image 
+                                            src={src} 
+                                            alt={alt} 
+                                            layout="responsive" 
+                                            width={500} 
+                                            height={500} 
+                                            objectFit="cover" 
+                                            className="w-full h-full"
+                                        />
                                         </CardContent>
                                     </Card>
                     
