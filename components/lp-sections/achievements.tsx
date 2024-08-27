@@ -2,6 +2,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import React from 'react'
 import Image from "next/image";
 
+const Images = [
+    { src: "/cisco.png", alt: "cisco" },
+    { src: "/osint.png", alt: "osint" },
+    { src: "/udemy.png", alt: "udemy" },
+];
+
 import {
     Carousel,
     CarouselContent,
@@ -53,20 +59,22 @@ const Achievements = (props: Props) => {
             <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20 text-black">
                 <Carousel className="w-full max-w-sm">
                     <CarouselContent className="-ml-1">
-                        {Array.from({ length: 3 }).map((_, index) => (
-                            <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
+                        {Images.map(({ src, alt }, index) => (
+                            <CarouselItem key={index} 
+                            className="pl-1 md:basis-1/2 lg:basis-1/3">
                                 <div className="p-1">
-                                    
                                     <Card>
                                         <CardContent className="flex aspect-square items-center justify-center p-6">
                                              <div>
-                    <Image
-                        src=""
-                        width={0}
-                        height={0}
-                        alt="Picture of the author"
-                    />
-                </div>
+                                             <Image src="/cisco.png" 
+                                                    alt="Picture of the author" 
+                                                    layout='responsive' 
+                                                    width={500} 
+                                                    height={500} 
+                                                    objectFit='contain'
+                                             />
+                 </div>
+
                                             <span className="text-2xl font-semibold">{index + 1}</span>
                                         </CardContent>
                                     </Card>
@@ -79,6 +87,7 @@ const Achievements = (props: Props) => {
                     <CarouselNext />
                 </Carousel>
             </div>
+                        
               <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20">
                 <div>
                     <Image
