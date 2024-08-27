@@ -45,10 +45,23 @@ const WhoAmI = () => {
                     </div>
                     <div className="flex justify-normal px-32 py-8 pb-16">
                         <blockquote className="text-sm">
-                            <p>Follow me on Linkedin</p>
-                            <p>Follow me on Github</p>
-                            <p>Follow me on TryHackMe</p>
-                            <p>izabellelunadev@gmail.com</p>
+                             <div className="text-sm">
+        <a href="https://www.linkedin.com/in/izabelle-luna-248b33196/" target="_blank" rel="noopener noreferrer">
+            Follow me on Linkedin
+        </a>
+        <br />
+        <a href="https://github.com/zabeluna" target="_blank" rel="noopener noreferrer">
+            Follow me on Github
+        </a>
+        <br />
+        <a href="https://tryhackme.com/p/rabbitnuna" target="_blank" rel="noopener noreferrer">
+            Follow me on TryHackMe
+        </a>
+        <br />
+        <a href="mailto:izabellelunadev@gmail.com">
+            izabellelunadev@gmail.com
+        </a>
+    </div>
                         </blockquote>
                     </div>
                 </div>

@@ -4,8 +4,12 @@ import Image from "next/image";
 
 const Images = [
     { src: "/cisco.png", alt: "cisco" },
+    { src: "/network.png", alt: "ciscoacademy" },
     { src: "/osint.png", alt: "osint" },
+    { src: "/badgecisco.png", alt: "ciscobadge" },
     { src: "/udemy.png", alt: "udemy" },
+    
+    
 ];
 
 import {
@@ -40,7 +44,7 @@ const Achievements = (props: Props) => {
             <div>
                 <div className="flex-col md:flex items-center justify-center">
                         <Image
-                            src="/cinnaa.png"
+                            src="/fofinho.png"
                             width={140}
                             height={500}
                             alt="cinna"
@@ -90,7 +94,16 @@ const Achievements = (props: Props) => {
                 <div>
                     <Image
                         src="/owasp.png"
-                        width={140}
+                        width={130}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                </div>
+
+                <div>
+                    <Image
+                        src="/curso.png"
+                        width={130}
                         height={500}
                         alt="Picture of the author"
                     />
@@ -100,6 +113,15 @@ const Achievements = (props: Props) => {
                     <Image
                         src="/pentest.png"
                         width={220}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                </div>
+
+                <div>
+                    <Image
+                        src="/academiacurso.png"
+                        width={130}
                         height={500}
                         alt="Picture of the author"
                     />
