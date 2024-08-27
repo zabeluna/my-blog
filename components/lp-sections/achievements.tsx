@@ -26,7 +26,7 @@ type Props = {}
 const Achievements = (props: Props) => {
     return (
         <>
-            
+        
 
             <div className="flex-col gap-3 px-12 py-1 pb-20 md:mb-16 order-last text-center">
                 <blockquote>
@@ -42,7 +42,7 @@ const Achievements = (props: Props) => {
                 </blockquote>
             </div>
             <div>
-                <div className="flex-col md:flex items-center justify-center">
+                <div className="flex flex-col items-center justify-center md:flex-row">
                         <Image
                             src="/fofinho.png"
                             width={140}
@@ -90,7 +90,7 @@ const Achievements = (props: Props) => {
                 </Carousel>
             </div>
                         
-              <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20">
+              <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20 flex-shrink-0">
                 <div>
                     <Image
                         src="/owasp.png"

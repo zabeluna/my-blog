@@ -14,38 +14,43 @@ const Skills = (props: Props) => {
                     Habilidades e Tecnologias
                 </h1>
             </div>
-
-            <div className="flex flex-row items-center justify-center scroll-px-3.5 py-5 pb-40 gap-20">
-                <div>
+           
+            <div className="flex flex-col md:flex-row items-center justify-center py-5 pb-40 gap-6 md:gap-12">
+                <div className="flex-shrink-0">
                     <Image
                         src="/javascript.png"
-                        width={119}
+                        width={111}
                         height={500}
                         alt="Picture of the author"
+                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
                     />
                 </div>
-                <div>
+                <div className="flex-shrink-0">
                     <Image
                         src="/tsts.png"
-                        width={120}
+                        width={111}
                         height={500}
                         alt="Picture of the author"
+                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
                     />
                 </div>
-                <div>
+                <div className="flex-shrink-0">
                     <Image
                         src="/gitgit.png"
-                        width={120}
+                        width={111}
                         height={500}
                         alt="Picture of the author"
+                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
                     />
                 </div>
-                <div>
+                <div className="flex-shrink-0">
                     <Image
                         src="/html.png"
-                        width={120}
+                        width={111}
                         height={500}
                         alt="Picture of the author"
+                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
+                        
                     />
                 </div>
             </div>

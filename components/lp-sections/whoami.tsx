@@ -4,7 +4,7 @@ const WhoAmI = () => {
     return (
         <>
         <div></div>
-        <div className="flex-col md:flex items-center justify-center">
+        <div className="flex flex-col items-center justify-center md:flex-row">
                         <Image
                             src="/cinenino.png"
                             width={130}
