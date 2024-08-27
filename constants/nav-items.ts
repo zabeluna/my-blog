@@ -1,7 +1,7 @@
 const navItems: { name: string; path: string }[] = [
-  { name: "About", path: "/about" },
-  { name: "Projects", path: "/projects" },
-  { name: "Blog", path: "/blog" },
+  { name: "Sobre", path: "/sobre" },
+  { name: "Habilidades", path: "/habilidades" },
+  { name: "Blog", path: "/Blog"},
 ];
 
 export default navItems;
