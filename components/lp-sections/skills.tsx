@@ -22,7 +22,7 @@ const Skills = (props: Props) => {
                         width={111}
                         height={500}
                         alt="Picture of the author"
-                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
+                        className=""
                     />
                 </div>
                
@@ -32,7 +32,7 @@ const Skills = (props: Props) => {
                         width={111}
                         height={500}
                         alt="Picture of the author"
-                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
+                        className=""
                     />
                 </div>
                 <div>
@@ -41,16 +41,16 @@ const Skills = (props: Props) => {
                         width={111}
                         height={500}
                         alt="Picture of the author"
-                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
+                        className=""
                     />
                 </div>
-                <div className="flex-shrink-0">
+                <div>
                     <Image
                         src="/html.png"
                         width={111}
                         height={500}
                         alt="Picture of the author"
-                        className="w-24 h-24 md:w-28 md:h-28 object-contain"
+                        className=""
                         
                     />
                 
