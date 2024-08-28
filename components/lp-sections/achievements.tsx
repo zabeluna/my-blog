@@ -89,7 +89,7 @@ const Achievements = (props: Props) => {
                 </Carousel>
             </div>
                         
-              <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20 flex-shrink-0">
+              <div className="flex md:flex-row items-center justify-center py-5 pb-40 gap-6 md:gap-12">
                 <div>
                     <Image
                         src="/owasp.png"

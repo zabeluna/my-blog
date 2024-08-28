@@ -27,7 +27,7 @@ const WhoAmI = () => {
 
             <div className="grid grid-cols-1 gap-y-5 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
 
-            <div className="mt-16 sm:mt-32 sm:px-8">
+            <div className="mt-16 sm:mt-32 sm:px-8 ml-32 md:pr-10">
                         <Image
                             src="/foto.png"
                             width={250}
