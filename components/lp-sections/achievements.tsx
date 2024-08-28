@@ -2,7 +2,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import React from 'react'
 import Image from "next/image";
 
-const Images = [
+const images = [
     { src: "/cisco.png", alt: "cisco" },
     { src: "/network.png", alt: "ciscoacademy" },
     { src: "/osint.png", alt: "osint" },
@@ -63,7 +63,7 @@ const Achievements = (props: Props) => {
             <div className="flex flex-row items-center justify-center scroll-px-3.5 py-14 pb-40 gap-20 text-black">
                 <Carousel className="w-full max-w-sm md:max-w-lg lg:max-w-xl xl:max-w-2xl">
                     <CarouselContent className="-ml-1">
-                        {Images.map(({ src, alt }, index) => (
+                        {images.map(({ src, alt }, index) => (
                             <CarouselItem key={index} 
                             className="pl-1 md:basis-1/2 lg:basis-1/2">
                                 <div className="p-1">
