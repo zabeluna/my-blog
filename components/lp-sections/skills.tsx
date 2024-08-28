@@ -15,8 +15,8 @@ const Skills = (props: Props) => {
                 </h1>
             </div>
            
-            <div className="flex flex-col md:flex-row items-center justify-center py-5 pb-40 gap-6 md:gap-12">
-                <div className="flex-shrink-0">
+            <div className="flex md:flex-row items-center justify-center py-5 pb-40 gap-6 md:gap-12">
+                <div>
                     <Image
                         src="/javascript.png"
                         width={111}
@@ -25,7 +25,8 @@ const Skills = (props: Props) => {
                         className="w-24 h-24 md:w-28 md:h-28 object-contain"
                     />
                 </div>
-                <div className="flex-shrink-0">
+               
+                <div>
                     <Image
                         src="/tsts.png"
                         width={111}
@@ -34,7 +35,7 @@ const Skills = (props: Props) => {
                         className="w-24 h-24 md:w-28 md:h-28 object-contain"
                     />
                 </div>
-                <div className="flex-shrink-0">
+                <div>
                     <Image
                         src="/gitgit.png"
                         width={111}
@@ -52,6 +53,7 @@ const Skills = (props: Props) => {
                         className="w-24 h-24 md:w-28 md:h-28 object-contain"
                         
                     />
+                
                 </div>
             </div>
         </>

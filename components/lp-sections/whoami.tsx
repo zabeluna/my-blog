@@ -22,7 +22,22 @@ const WhoAmI = () => {
                     Quem sou eu?
                 </h1>
             </div>
-            <div className="flex justify-start items-start gap-3 py-20 md:mb-16 pb-10 order-last">
+
+        
+
+            <div className="grid grid-cols-1 gap-y-5 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
+
+            <div className="mt-16 sm:mt-32 sm:px-8">
+                        <Image
+                            src="/foto.png"
+                            width={250}
+                            height={500}
+                            alt="Picture of the author"
+                            className="rounded-lg"
+                            
+                        />
+                    </div>
+
                 <p className="text-justify-left text-lg mt-3">
                     Olá! Sou uma estudante de Ciência da Computação apaixonada por
                     segurança cibernética e desenvolvimento web. Minha jornada me
@@ -34,17 +49,9 @@ const WhoAmI = () => {
           
                 </p>
                 <div>
-                    <div className="px-32">
-                        <Image
-                            src="/foto.png"
-                            width={250}
-                            height={500}
-                            alt="Picture of the author"
-                            className="rounded-lg"
-                        />
-                    </div>
-                    <div className="flex justify-normal px-32 py-8 pb-16">
-                        <blockquote className="text-sm">
+                   
+                    <div className="lg:pl-40 pb-24">
+                       
                              <div className="text-sm">
         <a href="https://www.linkedin.com/in/izabelle-luna-248b33196/" target="_blank" rel="noopener noreferrer">
             Follow me on Linkedin
@@ -62,7 +69,7 @@ const WhoAmI = () => {
             izabellelunadev@gmail.com
         </a>
     </div>
-                        </blockquote>
+                        
                     </div>
                 </div>
             </div>
