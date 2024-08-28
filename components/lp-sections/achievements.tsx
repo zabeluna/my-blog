@@ -2,16 +2,6 @@ import { ChevronLeft, ChevronRight } from 'lucide-react'
 import React from 'react'
 import Image from "next/image";
 
-const images = [
-    { src: "/cisco.png", alt: "cisco" },
-    { src: "/network.png", alt: "ciscoacademy" },
-    { src: "/osint.png", alt: "osint" },
-    { src: "/badgecisco.png", alt: "ciscobadge" },
-    { src: "/udemy.png", alt: "udemy" },
-    
-    
-];
-
 import {
     Carousel,
     CarouselContent,
@@ -24,6 +14,15 @@ import { Card, CardContent } from '../ui/card'
 type Props = {}
 
 const Achievements = (props: Props) => {
+    const images = [
+        { src: "/cisco.png", alt: "cisco" },
+        { src: "/network.png", alt: "ciscoacademy" },
+        { src: "/osint.png", alt: "osint" },
+        { src: "/badgecisco.png", alt: "ciscobadge" },
+        { src: "/udemy.png", alt: "udemy" },
+        
+        
+    ];
     return (
         <>
         
