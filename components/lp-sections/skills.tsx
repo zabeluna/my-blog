@@ -6,6 +6,7 @@ type Props = {}
 const Skills = (props: Props) => {
     return (
         <>
+        <section id="skills"></section>
             <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
                 <h1 className="text-blue-300 leading-tight md:leading-none text-2xl font-header">
                     MINHAS HABILIDADES
@@ -56,6 +57,7 @@ const Skills = (props: Props) => {
                 
                 </div>
             </div>
+            
         </>
     )
 }
