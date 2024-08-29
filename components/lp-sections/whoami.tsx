@@ -3,6 +3,12 @@ import Image from "next/image";
 const WhoAmI = () => {
     return (
         <>
+        <div className="flex-auto">
+            <div className="mx-auto w-full max-w-7xl lg:px-8">
+                <div className="mx-auto w-full max-w-7xl lg:px-8">
+                    <div className="relative px-4 sm:px-8 lg:px-12">
+                        <div className="mx-auto max-w-2xl lg:max-w-5xl">
+
         <div></div>
         <div className="flex flex-col items-center justify-center md:flex-row">
                         <Image
@@ -27,16 +33,6 @@ const WhoAmI = () => {
         
             <div className="grid grid-cols-1 gap-y-5 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
 
-            <div className="mt-16 sm:mt-32 sm:px-8 ml-32 md:pr-1">
-                        <Image
-                            src="/foto.png"
-                            width={250}
-                            height={500}
-                            alt="Picture of the author"
-                            className="rounded-lg"
-                            
-                        />
-                    </div>
 
                 <p className="text-justify-left text-lg mt-3">
                     Olá! Sou uma estudante de Ciência da Computação apaixonada por
@@ -48,27 +44,45 @@ const WhoAmI = () => {
                     natureza, cozinhar, dançar, ler e sentir músicas.</p>
           
                 </p>
-                <div>
-                   
-                    <div className="lg:pl-40 pb-24">
-                       
-                             <div className="text-sm">
-        <a href="https://www.linkedin.com/in/izabelle-luna-248b33196/" target="_blank" rel="noopener noreferrer">
+
+                
+                
+            <div>
+                <div className="lg:mt-1 sm:mt-32 sm:px-8 ml-32 mb-8">
+                        <Image
+                            src="/foto.png"
+                            width={250}
+                            height={500}
+                            alt="Picture of the author"
+                            className="rounded-lg"
+                            
+                        />
+                        </div>
+                    </div>
+
+                
+                    <div className="lg:pl-40 text-sm">
+                        <ul>
+                            <li className="mt-4 flex"><a href="https://www.linkedin.com/in/izabelle-luna-248b33196/" target="_blank" rel="noopener noreferrer">
             Follow me on Linkedin
-        </a>
-        <br />
+        </a></li>
+
+                    
+        <li className="mt-2 flex">
         <a href="https://github.com/zabeluna" target="_blank" rel="noopener noreferrer">
             Follow me on Github
-        </a>
-        <br />
-        <a href="https://tryhackme.com/p/rabbitnuna" target="_blank" rel="noopener noreferrer">
+        </a></li>
+
+        
+        <li className="mt-2 flex"><a href="https://tryhackme.com/p/rabbitnuna" target="_blank" rel="noopener noreferrer">
             Follow me on TryHackMe
-        </a>
-        <br />
-        <a href="mailto:izabellelunadev@gmail.com">
+        </a></li>
+        
+        <li className="mt-2 flex"><a href="mailto:izabellelunadev@gmail.com">
             izabellelunadev@gmail.com
-        </a>
-    </div>
+        </a></li>
+   
+    </ul>
                         
                     </div>
                 </div>
@@ -82,6 +96,13 @@ const WhoAmI = () => {
                     desafios reais
                 </p>
             </div>
+
+
+            </div>
+            </div>
+            </div>
+            </div>
+            
         </>
     )
 }
