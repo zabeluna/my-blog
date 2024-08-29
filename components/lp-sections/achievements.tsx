@@ -125,6 +125,15 @@ const Achievements = (props: Props) => {
                         alt="Picture of the author"
                     />
                 </div>
+
+                <div>
+                    <Image
+                        src="/plinux.png"
+                        width={130}
+                        height={500}
+                        alt="Picture of the author"
+                    />
+                </div>
                
             </div>
         </>
