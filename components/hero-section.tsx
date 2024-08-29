@@ -1,7 +1,6 @@
 import Image from "next/image";
 import LateNightCoding from "@/public/night-gif.gif";
-import { ChevronDown, ChevronLeft, ChevronRight } from "lucide-react";
-import WhoAmI from "./lp-sections/whoami";
+import { ChevronDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -13,6 +12,7 @@ const HeroSection = () => {
             src={LateNightCoding}
             alt="late night coding"
             style={{ objectFit: "cover" }}
+            unoptimized
           />
         </div>
         <div className="flex-col gap-3 px-12 md:mb-16 order-last text-center">
@@ -27,14 +27,6 @@ const HeroSection = () => {
         </div>
       </div>
       <ChevronDown className="mx-auto animate-bounce" />
-
-
-      {/* diminuir fonte */}
-   
-      <div>{/* add link pro blog */}</div>
-
-
-
     </>
   );
 };
